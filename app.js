@@ -12,23 +12,33 @@ const colors = [
 ];
 
 app.set('view engine', 'pug');
+//Created a routes folder, and connecting it.
+const routes = require('./routes');
+const projectRoutes = require('.routes/projects');
 
-app.get('/', (req, res) => {
-    res.render('index');
+app.use(routes);
+app.use('/projects', projectRoutes);
+app.use((req, res, next) => {
+    console.log("This is an error");
+    const err = new Error('This is an error for testing.');
+    err.status = 500;
+    next(err);
+
 });
 
-app.get('/about', (req, res) => {
-    res.render('about');
-    console.log(`This is the about page.. or should be`)
+//Error Handling
+app.use((err, req, res, next) => {
+    const err = new Error('Not found!');
+    err.status = 404;
+    next(err.status);
+
 });
 
-app.get('/project/:id', (req, res) => {
-    res.send("Hi, welcome to my site!");
-    console.log(`Render of a customized version of the pug project template...`)
-});
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error', err);
 
-app.get('/noroute', (req, res) => {
-    res.send("Hi, welcome to my site!");
 });
 
 app.listen(3000, () => {

@@ -1,0 +1,55 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "Displays a random quote with a random background color either each time the button is clicked, or every 10 seconds.",
+            "technologies": ["HTML", "CSS", "JavaScript"] ,
+            "live_link": "https://lattei.github.io/random-quote-generator/",
+            "github_link": "https://github.com/lattei/random-quote-generator",
+            "image_urls": ,
+
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering" ,
+            "description": "Created a page where it shows 12 employeess. You can click the page buttons on the bottom as well as search a specific employee.",
+            "technologies": ["HTML", "CSS", "JavaScript"] ,
+            "live_link": "https://lattei.github.io/Data-Pagination-and-Filtering/",
+            "github_link": "https://github.com/lattei/Data-Pagination-and-Filtering",
+            "image_urls": ,
+            
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "An interactive form with validation informing user of incorrect data upon submitting. Conflicting options aside from user's choice will be deselected or hidden.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://lattei.github.io/Interactive-Form/",
+            "github_link": "https://github.com/lattei/Interactive-Form/",
+            "image_urls": ,
+            
+        },
+        {
+            "id": 3,
+            "project_name": "Object Oriented Programming Word Game",
+            "description": "Objected Oriented Word game where user is given a phrase to guess. Takes both mouse and keyboard input, if user guesses incorrectly they lose  a heart, upon losing all hearts the game is over. If the user guesses the phrase they receive a winning page. ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://lattei.github.io/OOP-Game/",
+            "github_link": "https://github.com/lattei/OOP-Game",
+            "image_urls": ,
+            
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "Utilizing RandomUser API, it fetches 12 random people. There is a search functionality to search upon the 12 users. Clicking on a person opens their modal with more detail, with back and next buttons to toggle through other users' modals.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://lattei.github.io/Public-API-Requests/",
+            "github_link": "https://github.com/lattei/Public-API-Requests",
+            "image_urls": ,
+            
+        }
+        ]
+    
+}
