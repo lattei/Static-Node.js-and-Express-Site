@@ -2,5 +2,9 @@ extends layout
 
 block content
     h1= error.message 
-    h2= error.status 
-    pre= error.stack 
+    h2= error.status
+    p Where were you trying to go?
+    img(src="/static/images/error_404.jpg", alt="A meme depicting a child scratching their head.")
+    nav     
+        a(href="/") Go Back
+    

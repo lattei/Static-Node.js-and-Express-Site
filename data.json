@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"] ,
             "live_link": "https://lattei.github.io/random-quote-generator/",
             "github_link": "https://github.com/lattei/random-quote-generator",
-            "image_urls": ,
+            "image_urls": ["/images/randomquote_main.png", "/images/randomquote_wide.png"]
 
         },
         {
@@ -17,7 +17,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"] ,
             "live_link": "https://lattei.github.io/Data-Pagination-and-Filtering/",
             "github_link": "https://github.com/lattei/Data-Pagination-and-Filtering",
-            "image_urls": ,
+            "image_urls": ["/images/datapagination_main.png", "/images/datapagination_wide.png"]
             
         },
         {
@@ -27,7 +27,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://lattei.github.io/Interactive-Form/",
             "github_link": "https://github.com/lattei/Interactive-Form/",
-            "image_urls": ,
+            "image_urls": ["/images/interactiveform_main.png", "/images/interactiveform_wide.png"]
             
         },
         {
@@ -37,7 +37,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://lattei.github.io/OOP-Game/",
             "github_link": "https://github.com/lattei/OOP-Game",
-            "image_urls": ,
+            "image_urls": ["/images/oopgame_main.png", "/images/oopgame_wide.png"]
             
         },
         {
@@ -47,7 +47,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://lattei.github.io/Public-API-Requests/",
             "github_link": "https://github.com/lattei/Public-API-Requests",
-            "image_urls": ,
+            "image_urls": ["/images/api_requests_main.png", "/images/api_requests_wide.png"]
             
         }
         ]

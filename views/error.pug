@@ -3,4 +3,7 @@ extends layout
 block content
     h1= error.message 
     h2= error.status 
-    pre= error.stack 
+    p Bro... what did you do?
+    img(src="/static/images/error_500.jpg", alt="A meme depicting an error 500.")
+    nav
+        a(href="/") Go Back

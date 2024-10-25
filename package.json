@@ -4,6 +4,7 @@
   "description": "Treehouse TechDegree Unit 6 Project",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Carline Senat",
